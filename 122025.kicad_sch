@@ -1781,6 +1781,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 132.08 157.48)
@@ -1959,6 +2060,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73923cf9-acb8-4926-9306-b400d6241467")
+	)
+	(junction
+		(at 156.21 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75da2915-5f81-4bea-be06-9fba73b287fc")
 	)
 	(junction
 		(at 60.96 57.15)
@@ -2198,16 +2305,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 67.31) (xy 36.83 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f74a59a-82dd-4582-b9c9-c4ec93cf6b49")
-	)
-	(wire
-		(pts
 			(xy 219.71 33.02) (xy 224.79 33.02)
 		)
 		(stroke
@@ -2215,6 +2312,16 @@
 			(type default)
 		)
 		(uuid "30731c72-b933-4e97-acb1-1364f0e147cc")
+	)
+	(wire
+		(pts
+			(xy 78.74 167.64) (xy 87.63 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3481695d-d8ae-4bc5-94d6-d45088fe2108")
 	)
 	(wire
 		(pts
@@ -2328,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 167.64) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593a8302-69f5-421d-b779-92a092bd4380")
+	)
+	(wire
+		(pts
 			(xy 139.7 87.63) (xy 139.7 91.44)
 		)
 		(stroke
@@ -2335,16 +2452,6 @@
 			(type default)
 		)
 		(uuid "5aa7d77f-2040-40f1-b3ce-9d3973750493")
-	)
-	(wire
-		(pts
-			(xy 78.74 166.37) (xy 78.74 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c7b1c03-5596-4386-8293-f75bf6717817")
 	)
 	(wire
 		(pts
@@ -2628,16 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 167.64) (xy 87.63 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94468b0d-9d2f-493d-b688-551ff2d4e530")
-	)
-	(wire
-		(pts
 			(xy 139.7 43.18) (xy 139.7 44.45)
 		)
 		(stroke
@@ -2818,6 +2915,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 67.31) (xy 36.83 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c45fe91d-a5d6-4b22-8e4f-adcc5f286b56")
+	)
+	(wire
+		(pts
 			(xy 36.83 59.69) (xy 36.83 57.15)
 		)
 		(stroke
@@ -2825,16 +2932,6 @@
 			(type default)
 		)
 		(uuid "c7e41dc9-21be-4fa9-9217-e9ca1f1bcc77")
-	)
-	(wire
-		(pts
-			(xy 66.04 167.64) (xy 78.74 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9553554-3ed0-4f1f-b8e5-cd43c6ede277")
 	)
 	(wire
 		(pts
@@ -3067,7 +3164,7 @@
 		(uuid "21f27308-67f5-4625-8c19-aefd7e52b73c")
 	)
 	(label "V+"
-		(at 78.74 166.37 0)
+		(at 80.01 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3203,7 +3300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 178.7652 29.21 0)
 			(effects
 				(font
@@ -3273,7 +3370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 217.932 36.83 90)
 			(effects
 				(font
@@ -3291,7 +3388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -3341,7 +3438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -3350,7 +3447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.taiwanalpha.com.tw/downloads?target=products&id=113"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -3414,7 +3511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 35.052 63.5 90)
 			(effects
 				(font
@@ -3432,7 +3529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 36.83 63.5 0)
 			(effects
 				(font
@@ -3570,7 +3667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 109.5248 184.15 0)
 			(effects
 				(font
@@ -3638,7 +3735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 105.41 53.6448 0)
 			(effects
 				(font
@@ -3706,7 +3803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3715,7 +3812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.taiwanalpha.com.tw/downloads?target=products&id=113"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -3985,7 +4082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 41.6052 175.26 0)
 			(effects
 				(font
@@ -4053,7 +4150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 198.12 33.02 0)
 			(effects
 				(font
@@ -4062,7 +4159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/rc4558.pdf"
+		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/jrc45584i743ncft874nfdt34ufguygf43.pdf?srsltid=AfmBOopm6UPNtS4QRKDAS2odqTnU4qc2dRqqfuVBGYy8mnZRTR6428Zk"
 			(at 198.12 33.02 0)
 			(effects
 				(font
@@ -4139,7 +4236,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 242.57 32.0548 0)
 			(effects
 				(font
@@ -4209,7 +4306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
 			(at 262.89 36.83 0)
 			(effects
 				(font
@@ -4218,7 +4315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.taiwanalpha.com.tw/downloads?target=products&id=113"
 			(at 262.89 36.83 0)
 			(effects
 				(font
@@ -4359,7 +4456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 115.062 63.5 90)
 			(effects
 				(font
@@ -4377,7 +4474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 116.84 63.5 0)
 			(effects
 				(font
@@ -4429,7 +4526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 115.062 36.83 90)
 			(effects
 				(font
@@ -4447,7 +4544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 116.84 36.83 0)
 			(effects
 				(font
@@ -4499,7 +4596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 182.5752 49.53 0)
 			(effects
 				(font
@@ -4634,7 +4731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 118.11 179.07 0)
 			(effects
 				(font
@@ -4643,7 +4740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/rc4558.pdf"
+		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/jrc45584i743ncft874nfdt34ufguygf43.pdf?srsltid=AfmBOopm6UPNtS4QRKDAS2odqTnU4qc2dRqqfuVBGYy8mnZRTR6428Zk"
 			(at 118.11 179.07 0)
 			(effects
 				(font
@@ -4850,7 +4947,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 138.43 42.2148 0)
 			(effects
 				(font
@@ -5060,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 54.61 58.928 90)
 			(effects
 				(font
@@ -5078,7 +5175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 54.61 57.15 0)
 			(effects
 				(font
@@ -5262,7 +5359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 76.962 171.45 90)
 			(effects
 				(font
@@ -5280,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 78.74 171.45 0)
 			(effects
 				(font
@@ -5396,7 +5493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
 			(at 72.39 54.61 0)
 			(effects
 				(font
@@ -5405,7 +5502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/rc4558.pdf"
+		(property "Datasheet" "https://www.rcscomponents.kiev.ua/datasheets/jrc45584i743ncft874nfdt34ufguygf43.pdf?srsltid=AfmBOopm6UPNtS4QRKDAS2odqTnU4qc2dRqqfuVBGYy8mnZRTR6428Zk"
 			(at 72.39 54.61 0)
 			(effects
 				(font
@@ -5593,6 +5690,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 78.74 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9732804f-52f4-4cba-9d96-9d5d16741e46")
+		(property "Reference" "#FLG01"
+			(at 78.74 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 78.74 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 78.74 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57a8a3fc-a423-4cf7-a4a1-41bdf92420e2")
+		)
+		(instances
+			(project ""
+				(path "/d195bee7-7b7f-4997-88e5-007a8fc2a42e"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 59.69 0)
 		(unit 1)
@@ -5684,7 +5847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 115.57 48.5648 0)
 			(effects
 				(font
@@ -5754,7 +5917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 137.922 36.83 90)
 			(effects
 				(font
@@ -5772,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 139.7 36.83 0)
 			(effects
 				(font
@@ -5954,7 +6117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 198.12 46.228 90)
 			(effects
 				(font
@@ -5972,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 198.12 44.45 0)
 			(effects
 				(font
@@ -6024,7 +6187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 59.182 60.96 90)
 			(effects
 				(font
@@ -6042,7 +6205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -6092,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.75 32.258 90)
 			(effects
 				(font
@@ -6110,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 158.75 30.48 0)
 			(effects
 				(font
@@ -6228,7 +6391,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 91.1352 182.88 0)
 			(effects
 				(font
@@ -6271,6 +6434,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 156.21 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c81fdf2b-0b0f-4504-81de-7dfa61db5205")
+		(property "Reference" "#FLG02"
+			(at 156.21 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 156.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a83d7b00-32ea-4a7e-9098-0c747809e432")
+		)
+		(instances
+			(project ""
+				(path "/d195bee7-7b7f-4997-88e5-007a8fc2a42e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 53.34 171.45 0)
 		(unit 1)
@@ -6298,7 +6526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 54.3052 175.26 0)
 			(effects
 				(font
@@ -6432,7 +6660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 91.44 169.418 90)
 			(effects
 				(font
@@ -6450,7 +6678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/2W"
 			(at 91.44 167.64 0)
 			(effects
 				(font
@@ -6650,7 +6878,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 228.6 34.798 90)
 			(effects
 				(font
@@ -6668,7 +6896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 228.6 33.02 0)
 			(effects
 				(font
@@ -6718,7 +6946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 151.13 29.5148 0)
 			(effects
 				(font
@@ -6788,7 +7016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 76.962 179.07 90)
 			(effects
 				(font
@@ -6806,7 +7034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 78.74 179.07 0)
 			(effects
 				(font
@@ -6920,7 +7148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 92.71 56.388 90)
 			(effects
 				(font
@@ -6938,7 +7166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 92.71 54.61 0)
 			(effects
 				(font
@@ -6988,7 +7216,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 128.27 32.258 90)
 			(effects
 				(font
@@ -7006,7 +7234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 128.27 30.48 0)
 			(effects
 				(font
@@ -7058,7 +7286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 137.922 82.55 90)
 			(effects
 				(font
@@ -7076,7 +7304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -7126,7 +7354,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 201.93 53.6448 0)
 			(effects
 				(font
@@ -7194,7 +7422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 214.63 32.0548 0)
 			(effects
 				(font
@@ -7264,7 +7492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 152.0952 86.36 0)
 			(effects
 				(font
@@ -7332,7 +7560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm"
 			(at 48.26 56.1848 0)
 			(effects
 				(font
@@ -7400,7 +7628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 33.02 169.418 90)
 			(effects
 				(font
@@ -7418,7 +7646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/2W"
 			(at 33.02 167.64 0)
 			(effects
 				(font
@@ -7470,7 +7698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 244.602 36.83 90)
 			(effects
 				(font
@@ -7488,7 +7716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 246.38 36.83 0)
 			(effects
 				(font
@@ -7538,7 +7766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 187.96 61.468 90)
 			(effects
 				(font
@@ -7556,7 +7784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Resistor 1/4W"
 			(at 187.96 59.69 0)
 			(effects
 				(font
