@@ -1,6 +1,6 @@
 # Fuzzzzzzz - A guitar pedal
 ### My take on the classic fuzz face circuit
-The Fuzzzzzzz guitar pedal is designed to give a boutique, warm, saturated fuzz tone full of character to make every tone better.
+The Fuzzzzzzz guitar pedal is designed to give a fuzzy, warm, saturated fuzz tone full of character to make every tone better. It works great in bass too!
 
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzIyMjQsInB1ciI6ImJsb2JfaWQifX0=--28d04e754bfd8452231a5bed593a2aa54a2583ec/image.png)
 
