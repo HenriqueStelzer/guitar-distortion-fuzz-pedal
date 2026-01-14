@@ -14,11 +14,6 @@ C14,1,10uF,Capacitor_THT:CP_Radial_D5.0mm_P2.50mm,Polarized capacitor
 "D1, D2",2,1N4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,"100V 0.15A standard switching diode, DO-35"
 D3*,1,1N5819,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,"40V 1A Schottky Barrier Rectifier Diode, DO-41"
 D4*,1,LED,LED_THT:LED_D3.0mm,Light emitting diode
-J1,1,IN,Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical,"Generic connector, single row, 01x01, script generated"
-J2,1,OUT,Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical,"Generic connector, single row, 01x01, script generated"
-J3,1,PWR,Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical,"Generic connector, single row, 01x01, script generated"
-J4,1,LED,Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical,"Generic connector, single row, 01x01, script generated"
-J5,1,GND,Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical,"Generic connector, single row, 01x01, script generated"
 Q1*,1,2N5088,Package_TO_SOT_THT:TO-92_Inline,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 Q2*,1,2N4401,Package_TO_SOT_THT:TO-92_Inline,"0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
 "R1, R15",2,1M,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Resistor 1/4W
