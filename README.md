@@ -47,7 +47,7 @@ The Fuzzzzzzz guitar pedal is designed to give a boutique, warm, saturated fuzz 
 | 24    | R9                | 1       | 1K        | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal       | Resistor 1/4W                                                    |
 | 25    | R11               | 1       | 1K5       | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal       | Resistor 1/4W                                                    |
 | 26    | R14               | 1       | 33K       | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal       | Resistor 1/4W                                                    |
-| 27    | R16*              | 1       | 47R       | Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal      | Resistor 1/2W                                                    |
+| 27    | R16              | 1       | 47R       | Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal      | Resistor 1/2W                                                    |
 | 28    | R17, R18          | 2       | 220K      | Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal       | Resistor 1/4W                                                    |
 | 29    | R19              | 1       | 4K7       | Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal      | Resistor 1/2W                                                    |
 | 30    | RV1-RV3          | 3       | 100KA     | Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical | Potentiometer                                                    |
